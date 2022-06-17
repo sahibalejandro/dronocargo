@@ -1,0 +1,16 @@
+.shipment-row {
+  display: grid;
+  grid-template-columns: 120px 120px 130px 120px 120px 120px auto;
+  grid-column-gap: 1rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.shipment-row.recent {
+  border-width: 2px;
+  border-color: #307460;
+}
+
+.shipment-row:last-child {
+  border-bottom: none;
+}
